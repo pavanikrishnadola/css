@@ -1,0 +1,28 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style>
+            .text-focus-in{-webkit-animation:text-focus-in 5s steps(10,end) alternate both;animation:text-focus-in 5s steps(10,end) alternate both;
+                           margin-left: 400px;
+                           margin-top: 250px;
+                           font-size: 50px;
+                           color: blueviolet;
+            }
+            @-webkit-keyframes text-focus-in{
+                0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}
+                100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}
+                }
+            @keyframes text-focus-in
+                {
+                    0%{-webkit-filter:blur(12px);filter:blur(12px);opacity:0}
+                    100%{-webkit-filter:blur(0);filter:blur(0);opacity:1}
+                }
+        </style>
+    </head>
+    <body>
+        <div class="text-focus-in">DOLA PAVANI KRISHNA</div>
+    </body>
+</html>

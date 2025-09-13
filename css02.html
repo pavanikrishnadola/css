@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width,initial-scale=1.0">
+        <style type="text/css">
+            .dv1{
+                height: 150px;
+                width: 150px;
+                background-color: rebeccapurple;
+                border-radius: 50%;
+                position: relative;
+                animation-name: mv;
+                animation-delay: 0s;
+                animation-duration: 10s;
+                animation-iteration-count: infinite;
+                animation-duration: alternate;
+            }
+            @keyframes mv {
+                from{left:0;}
+                to{left:90%;}
+            }
+        </style>
+    </head>
+    <body>
+        <div class="dv1"></div>
+    </body>
+</html>
