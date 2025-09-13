@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <title>demo</title>
+        <meta charset="utf-8">
+        <meta name="viewport" width="device-width,initial-scale=1.0">
+        <style>
+            div{
+                margin-left: 450px;
+            }
+            table{
+                padding: 20px;
+                line-height: 30px;
+                outline: auto;
+                outline-color: green;
+                outline-width: 5px;
+                outline-style: solid;
+            }
+            select{
+                width: 390px;
+            }
+            textarea{
+                width: 370px;
+            }
+            button{
+                background-color: green;
+                width: 380px;
+                border-color: green;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+        <form name="fml">
+            <table>
+                <tr><td>Name</td></tr>
+                    <tr><td><input type="text" size="50" placeholder="Enter Your Name"></td></tr>
+                    <tr><td>Email</td></tr>
+                    <tr><td><input type="text" size="50" placeholder="Enter Your Email"></td></tr>
+                    <tr><td>Age</td></tr>
+                    <tr><td><input type="text" size="50" placeholder="Enter Your Age"></td></tr>
+                    <tr><td>Which Option Best Describes You?</td></tr>
+                    <tr><td>
+                        <select>
+                            <option>Student</option>
+                        </select>
+                    </td></tr>
+                    <tr><td>Would You Recommend GeekforGeeks To Your Friends</td></tr>
+                    <tr><td><input type="radio" name="gog" value="Yes">Yes</td></tr>
+                    <tr><td><input type="radio" name="gog" value="No">No</td></tr>
+                    <tr><td><input type="radio" name="gog" value="Maybe">Maybe</td></tr>
+                    <tr><td>Languages and Framework Known(check all that apply)</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="c">C</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="c++">C++</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="c#">C#</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="java">Java</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="python">Python</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="javascript">JavaScript</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="react">React</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="angular">Angular</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="django">Django</td></tr>
+                    <tr><td><input type="checkbox" name="lang" value="spring">Spring</td></tr>
+                    <tr><td>Any Comments or Suggestions</td></tr>
+                    <tr><td><textarea size="50" name="cmt" placeholder="Enter Your Comments"></textarea></td></tr>
+                    <tr><td><button type="button" onclick="Submit()">Submit</button></td></tr>
+            </table>
+        </form>
+        </div>
+    </body>
+</html>
